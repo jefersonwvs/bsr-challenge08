@@ -24,6 +24,7 @@ const Search = () => {
       const value = event.target.value;
       setFormData({ ...formData, [name]: value });
    };
+
    const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
       event.preventDefault();
       axios

@@ -1,5 +1,4 @@
 .search-container {
-   background-color: #e5e5e5;
    padding: 30px 10px;
    display: flex;
    flex-direction: column;
@@ -23,9 +22,11 @@
 }
 
 .username-input {
+   color: #5c5858;
    font-size: 16px;
-   padding-left: 15px;
-   width: 280px;
+   padding-left: 10px;
+   min-width: 280px;
+   max-width: 300px;
    height: 40px;
    margin-bottom: 25px;
 }
@@ -39,4 +40,18 @@
    font-size: 16px;
    color: #ffffff;
    margin: 0px;
+}
+
+@media (min-width: 992px) {
+   .search-container {
+      padding: 50px 90px;
+   }
+
+   .search-card {
+      padding: 50px 30px;
+   }
+
+   .search-card h1 {
+      font-size: 38px;
+   }
 }

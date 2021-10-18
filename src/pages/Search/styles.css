@@ -1,0 +1,42 @@
+.search-container {
+   background-color: #e5e5e5;
+   padding: 30px 10px;
+   display: flex;
+   flex-direction: column;
+}
+
+.search-card {
+   background-color: #e6f7ff;
+   border-radius: 15px;
+   padding: 30px 10px;
+}
+
+.search-card h1 {
+   font-size: 22px;
+   margin-bottom: 15px;
+   width: fit-content;
+}
+
+.search-form {
+   display: flex;
+   flex-direction: column;
+}
+
+.username-input {
+   font-size: 16px;
+   padding-left: 15px;
+   width: 280px;
+   height: 40px;
+   margin-bottom: 25px;
+}
+
+.search-card form button {
+   width: 100px;
+   height: 40px;
+}
+
+.search-card form button p {
+   font-size: 16px;
+   color: #ffffff;
+   margin: 0px;
+}
